@@ -1,0 +1,14 @@
+RAW STILLS LIVE HERE (webp / jpg / png)
+=======================================
+Per-clip stills named exactly like the clips:
+  01-hero-aerial.webp … 06-night-finale.webp
+  → converted by the pipeline to poster.jpg, poster-02.jpg … poster-06.jpg
+
+poster-mobile.webp  → hero-mobile.jpg (1080×1920 vertical hero)
+contact-sheet.jpg   → your generation contact sheet (not used by the site)
+
+Optional (Flow IMAGE mode, 3:4 portrait): suite-01/02/03.*
+  → suite-01/02/03.jpg (the three suite cards)
+
+Run:  powershell -ExecutionPolicy Bypass -File scripts\process-assets.ps1
+Filenames are the wiring contract — do not rename outputs in assets\images\.

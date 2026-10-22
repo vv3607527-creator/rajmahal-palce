@@ -1,0 +1,20 @@
+# OS junk
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+
+# dependency / build junk (none used, but just in case)
+node_modules/
+
+# transient test console outputs (final reports are kept as evidence)
+probe-out.txt
+probe2-out.txt
+probe3-out.txt
+suite-console.txt
+npm-install.log
+pw-run.log
+
+# local editor droppings
+*.swp
+*~

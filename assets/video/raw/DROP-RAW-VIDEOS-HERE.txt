@@ -1,0 +1,19 @@
+DROP RAW FLOW / VEO EXPORTS IN THIS FOLDER
+==========================================
+Name them EXACTLY (the pipeline and the site key off these names):
+
+  01-hero-aerial.mp4      hero descent         (scroll-scrubbed)
+  02-arrival-gate.mp4     entrance dolly       (scroll-scrubbed)
+  03-durbar-lobby.mp4     durbar hall glide    (autoplay loop)
+  04-royal-suite.mp4      suite lateral glide  (autoplay loop)
+  05-pool-gardens.mp4     pool tracking shot   (autoplay loop)
+  06-night-finale.mp4     night pull-back      (scroll-scrubbed)
+
+Then run, from the project root:
+
+  powershell -ExecutionPolicy Bypass -File scripts\process-assets.ps1
+
+Optimized clips appear in  assets\video\
+Posters / OG image / mobile hero / suite stills appear in  assets\images\
+
+Prompts & specs: ASSET-PROMPT-PACK.md in the project root.

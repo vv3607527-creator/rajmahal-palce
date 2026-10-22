@@ -1,0 +1,23 @@
+PASS  page loaded, preloader finished
+PASS  CH1 hero: clip 01 loaded + decodable  |  {"clip":"hero","src":"01-hero-aerial.mp4","rs":4,"t":9.96,"dur":9.96,"paused":true,"live":true}
+PASS  CH1 hero: scrub reaches video end  |  t=9.96s / dur=9.96s
+PASS  CH2 arrival: clip 02 preloaded ahead of pin  |  {"clip":"arrival","src":"02-arrival-gate.mp4","rs":4,"t":0,"dur":10,"paused":true,"live":true}
+PASS  CH2 arrival: scrub mid-video + visible  |  t=5s live=true
+PASS  CH3 durbar: clip 03 loaded  |  {"clip":"durbar","src":"03-durbar-lobby.mp4","rs":4,"t":2.09,"dur":10,"paused":false,"live":true}
+PASS  CH3 durbar: loop PLAYING
+PASS  CH3 durbar: time advancing  |  2.09s -> 3.2s
+PASS  CH4 suite: clip 04 loaded under pin  |  {"clip":"suite","src":"04-royal-suite.mp4","rs":4,"t":6.69,"dur":10,"paused":false,"live":true}
+PASS  CH4 suite: loop PLAYING under pin
+PASS  CH4 suite: time advancing  |  6.69s -> 7.8s
+PASS  CH4 suite: 3 cards fully visible mid-pin  |  opacities 1,1,1
+PASS  CH4 suite: cards visible after FAST scroll  |  opacities 1,1,1
+PASS  CH5 gardens: clip 05 loaded  |  {"clip":"gardens","src":"05-pool-gardens.mp4","rs":4,"t":2.19,"dur":9.96,"paused":false,"live":true}
+PASS  CH5 gardens: loop PLAYING
+PASS  CH5 gardens: time advancing  |  2.19s -> 3.31s
+PASS  CH5 gardens: arch clip-path applied  |  path("M 470.4 688.32 L 470.4 482.6 Q 490
+PASS  CH6 finale: clip 06 loaded  |  {"clip":"finale","src":"06-night-finale.mp4","rs":4,"t":6.94,"dur":10,"paused":true,"live":true}
+PASS  CH6 finale: scrub mid-video  |  t=6.94s
+PASS  FOOTER: ivory theme flip active
+PASS  no console/page errors  |  clean
+
+===== 21 passed, 0 failed =====
